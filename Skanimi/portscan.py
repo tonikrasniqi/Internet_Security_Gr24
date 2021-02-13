@@ -59,7 +59,8 @@ class PortScanner():
         self.console_text.insert(END, new_text)
         self.console_text.see(END)
         self.console_text.config(state=DISABLED)
-        def create_gui(self):
+        
+    def create_gui(self):
         Label(self.root, text='Host :').grid(row="1", column="1", sticky=W)
         self.host_entry = Entry(self.root)
         self.host_entry.insert(0, self.url)
