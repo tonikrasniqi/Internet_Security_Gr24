@@ -43,7 +43,10 @@ Në ketë pjesë të kodit kemi krijuar “gui” për  butonat kemi përcaktuar
 ![Screenshot_2](https://user-images.githubusercontent.com/51675513/107861914-4b4df400-6e49-11eb-9836-5643238a8bf2.png)
 
 
+Testimi
 
+Ekzekutimi I fajllit portscan.py
+Hapi I parë: Ne folderin perkates ‘Skanimi’  hapim cmd(Command Prompt) dhe shkruajmë emrin e fajllit në këtë rast portscan.py
 
 
 
