@@ -48,5 +48,7 @@ Testimi
 Ekzekutimi I fajllit portscan.py
 Hapi I parë: Ne folderin perkates ‘Skanimi’  hapim cmd(Command Prompt) dhe shkruajmë emrin e fajllit në këtë rast portscan.py
 
+![Screenshot 2021-02-13 221638](https://user-images.githubusercontent.com/57811400/107861945-8d773580-6e49-11eb-9be6-4631d01cd114.png)
+
 
 
