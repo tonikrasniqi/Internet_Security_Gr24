@@ -59,3 +59,36 @@ class PortScanner():
         self.console_text.insert(END, new_text)
         self.console_text.see(END)
         self.console_text.config(state=DISABLED)
+        def create_gui(self):
+        Label(self.root, text='Host :').grid(row="1", column="1", sticky=W)
+        self.host_entry = Entry(self.root)
+        self.host_entry.insert(0, self.url)
+        self.host_entry.grid(row="1", column="2", sticky=EW)
+        Label(self.root, text='Fillo në Portin :').grid(
+            row="2", column="1", sticky=W)
+        self.start_port_entry = Entry(self.root)
+        self.start_port_entry.insert(0, self.start_port)
+        self.start_port_entry.grid(row="2", column="2", sticky=EW)
+        Label(self.root, text='Përfundo në Portin :').grid(row="3", column="1", sticky=W)
+        self.end_port_entry = Entry(self.root)
+        self.end_port_entry.insert(0, self.end_port)
+        self.end_port_entry.grid(row="3", column="2", sticky=EW)
+        Button(self.root, text='Skano', command=self.on_scan_button_clicked).grid(
+            row="4", column="2", sticky=E)
+        Button(self.root, text='Mbaro', command=self.on_stop_button_clicked).grid(
+            row="4", column="2", sticky=W)
+        Label(self.root, text='Rezultatet e Skanimit :').grid(
+            row="5", column="1", sticky=W)
+        console_frame = Frame(self.root)
+        console_frame.grid(row="6", column="1", columnspan="2")
+        self.console_text = Text(
+            console_frame, fg="white", bg="grey", state=DISABLED)
+        scrollbar = Scrollbar(console_frame, command=self.console_text.yview)
+        scrollbar.pack(side="right", fill=Y)
+        self.console_text.pack(expand=1, fill=BOTH)
+        self.console_text['yscrollcommand'] = scrollbar.set
+
+if __name__ == '__main__':
+    root = Tk()
+    PortScanner(root)
+    root.mainloop()
