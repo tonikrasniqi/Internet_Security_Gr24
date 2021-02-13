@@ -61,3 +61,18 @@ Pastaj  pas klikimit scan skanohet portat prej 70-85 ku në këtë rast 80 e shf
 Shembull në një host tjetër:
 
 ![Screenshot 2021-02-13 221741](https://user-images.githubusercontent.com/57811400/107862040-4473b100-6e4a-11eb-8d36-d96e98013044.png)
+
+Konkluzioni
+
+•	Kodim në gjuhën programuese python 
+•	Modulin tkinter
+•	Paraqitjen e GUI (graphical user interface)
+•	Skanimi i portave përmes NMAP
+•	Testime në hoste të ndryshme dhe verifikimi i porteve ( të hapura ose të mbyllura)
+
+Referencat
+
+https://pentest-tools.com/network-vulnerability-scanning/tcp-port-scanner-online-nmap
+https://en.wikipedia.org/wiki/Port_scanner
+https://www.solarwinds.com/free-tools/port-scanner
+
