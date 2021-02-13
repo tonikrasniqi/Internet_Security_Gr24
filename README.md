@@ -30,6 +30,8 @@ Ndërveprimi i Shkrueshëm me synimin : Duke përdorur Nmap Scripting Engine (NS
 Pjesa e Kodit
 
 Në këtë pjesë kemi importuar socketen ku kemi përdorur modulin “tkinter”.
+![Screenshot_4](https://user-images.githubusercontent.com/53190272/107861783-594f4500-6e48-11eb-9707-a9e96073eb8e.png)
+
 
 
 
