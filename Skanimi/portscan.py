@@ -31,6 +31,7 @@ class PortScanner():
         thread = Thread(target=self.start_scan,
                         args=(url, start_port, end_port))
         thread.start()
+        
     def start_scan(self, url, start_port, end_port):
         for port in range(start_port, end_port + 1):
             if not self.stop:
