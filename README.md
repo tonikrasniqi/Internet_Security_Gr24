@@ -37,8 +37,10 @@ Në këtë pjesë të kodit  kemi krijuar klasën “Port Scanner” me hostin �
 ![Screenshot_5](https://user-images.githubusercontent.com/53190272/107861821-ac28fc80-6e48-11eb-99c8-2757ba3d3e2d.png)
 
 Në këtë pjesë të kodit fillon skanimi  porteve.
+![Screenshot_1](https://user-images.githubusercontent.com/51675513/107861879-1641a180-6e49-11eb-896b-de96ff043eaa.png)
 
 Në ketë pjesë të kodit kemi krijuar “gui” për  butonat kemi përcaktuar ngjyren e backgroundit dhe shkronjave. 
+
 
 
 
