@@ -55,3 +55,4 @@ Hapi I parë: Ne folderin perkates ‘Skanimi’  hapim cmd(Command Prompt) dhe 
 ![Screenshot 2021-02-13 221703](https://user-images.githubusercontent.com/57811400/107861991-e1821a00-6e49-11eb-87dc-7c98f62a2ca9.png)
 
 Pastaj  pas klikimit scan skanohet portat prej 70-85 ku në këtë rast 80 e shfaq si opended(sit e hapur) pasi që Hosti esht google.com dhe numri I portes se http është 80 .
+![Screenshot 2021-02-13 221724](https://user-images.githubusercontent.com/57811400/107862015-11312200-6e4a-11eb-9b1e-713acb81bff3.png)
