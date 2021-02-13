@@ -33,6 +33,8 @@ Në këtë pjesë kemi importuar socketen ku kemi përdorur modulin “tkinter�
 ![Screenshot_4](https://user-images.githubusercontent.com/53190272/107861783-594f4500-6e48-11eb-9707-a9e96073eb8e.png)
 
 
+Në këtë pjesë të kodit  kemi krijuar klasën “Port Scanner” me hostin “google.com” dhe fillimin e portit 70 dhe mbarimin 85
+
 
 
 
