@@ -40,7 +40,7 @@ Në këtë pjesë të kodit fillon skanimi  porteve.
 ![Screenshot_1](https://user-images.githubusercontent.com/51675513/107861879-1641a180-6e49-11eb-896b-de96ff043eaa.png)
 
 Në ketë pjesë të kodit kemi krijuar “gui” për  butonat kemi përcaktuar ngjyren e backgroundit dhe shkronjave. 
-
+![Screenshot_2](https://user-images.githubusercontent.com/51675513/107861914-4b4df400-6e49-11eb-9836-5643238a8bf2.png)
 
 
 
