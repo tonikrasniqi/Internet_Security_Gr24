@@ -31,3 +31,30 @@ class PortScanner():
         thread = Thread(target=self.start_scan,
                         args=(url, start_port, end_port))
         thread.start()
+    def start_scan(self, url, start_port, end_port):
+        for port in range(start_port, end_port + 1):
+            if not self.stop:
+                self.output_to_console("Skanimi i portit {}".format(port))
+                if self.is_port_open(url, port):
+                    self.output_to_console(" -- Porta {} Hapur \n".format(port))
+                else:
+                    self.output_to_console("-- Porta {} Mbyllur \n".format(port))
+
+    def is_port_open(self, url, port):
+        try:
+            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            s.settimeout(1)
+            s.connect((socket.gethostbyname(url), port))
+            s.close()
+            return True
+        except:
+            return False
+
+    def on_stop_button_clicked(self):
+        self.stop = True
+
+    def output_to_console(self, new_text):
+        self.console_text.config(state=NORMAL)
+        self.console_text.insert(END, new_text)
+        self.console_text.see(END)
+        self.console_text.config(state=DISABLED)
