@@ -53,3 +53,5 @@ Hapi I parë: Ne folderin perkates ‘Skanimi’  hapim cmd(Command Prompt) dhe 
  Ekzekutimi I fajllit portscan bëhet pasi te klikojm Enter  shfaqet pamja në vijim
 
 ![Screenshot 2021-02-13 221703](https://user-images.githubusercontent.com/57811400/107861991-e1821a00-6e49-11eb-87dc-7c98f62a2ca9.png)
+
+Pastaj  pas klikimit scan skanohet portat prej 70-85 ku në këtë rast 80 e shfaq si opended(sit e hapur) pasi që Hosti esht google.com dhe numri I portes se http është 80 .
