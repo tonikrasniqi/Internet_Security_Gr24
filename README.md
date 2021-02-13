@@ -58,3 +58,5 @@ Pastaj  pas klikimit scan skanohet portat prej 70-85 ku në këtë rast 80 e shf
 ![Screenshot 2021-02-13 221724](https://user-images.githubusercontent.com/57811400/107862015-11312200-6e4a-11eb-9b1e-713acb81bff3.png)
 
 Shembull në një host tjetër:
+
+![Screenshot 2021-02-13 221741](https://user-images.githubusercontent.com/57811400/107862040-4473b100-6e4a-11eb-8d36-d96e98013044.png)
