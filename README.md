@@ -2,6 +2,36 @@
 
 # Detyra e tretë: “Zhvillimi i aplikacionit i cili përdorë librarinë Python Nmap për simulimin e kontrolleve me NMAP.”
 
+Hyrje
+
+Në projektin e tretë në kuadër të lëndës “Siguria në Internetë’shtë dhënë detyra si vijon:
+Aplikacioni duhet të përmbajë një meny për përzgjedhjen e opcioneve/funksionaliteteve të veta. Menyja duhet të jetë e punuar si GUI (graphical user interface) duke përdorur vetëm modulin tkinter të Python.
+Aplikacionet duhet të shmangin përdorimin e moduleve të gatshme përvec në rastin kur një gjë e tillë është e pashmangshme.
+Zhvillimi i aplikacioni i cili perdor librarine Python Nmap per simulimin e kontrolleve me NMAP.”
+
+Projekti është zhvilluar me python dhe është publik në platformën “github” në linkun: https://github.com/tonikrasniqi/Internet_Security_Gr24
+
+
+Përshkrimi i projektit
+
+Fillimisht do të njoftohemi me disa terma të cilët do ti përdorim në vijim.
+Çfarë është Nmap?
+Nmap (Rrjetuesi i Rrjetit) është një skanues sigurie, i shkruar fillimisht nga Gordon Lyon (i njohur gjithashtu me pseudonimin e tij Fyodor Vaskovich), dhe përdoret për të zbuluar host dhe shërbime në një rrjet kompjuterik, duke ndërtuar kështu një hartë të rrjetit. Për të përmbushur qëllimin e tij, Nmap dërgon pako të punuara posaçërisht tek host (et) e synuar dhe më pas analizon përgjigjet e tyre.
+Disa nga tiparet e dobishme të Nmap përfshijnë:
+Zbulimi i hostit : Kjo mundëson identifikimin e hostëve në çdo rrjet. Për shembull, renditja e hostëve që i përgjigjen kërkesave të TCP dhe / ose ICMP ose kanë një port të veçantë të hapur.
+Skanimi i Portit : Renditja (numërimi dhe renditja një nga një) e të gjitha portave të hapura në hostet e synuara.
+Zbulimi i Versionit : Marrja në pyetje e shërbimeve të rrjetit në pajisjet e largëta për të përcaktuar emrin e aplikacionit dhe numrin e versionit.
+Zbulimi i OS : Përcaktimi i sistemit operativ dhe karakteristikave të pajisjeve të pajisjeve të rrjetit.
+Ndërveprimi i Shkrueshëm me synimin : Duke përdorur Nmap Scripting Engine (NSE) dhe gjuhën e programimit Lua, ne mund të shkruajmë lehtësisht skripte për të kryer operacione në pajisjet e rrjetit.
+
+
+
+
+Pjesa e Kodit
+
+Në këtë pjesë kemi importuar socketen ku kemi përdorur modulin “tkinter”.
+
+
 
 
 
